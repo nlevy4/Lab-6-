@@ -15,7 +15,13 @@ def encode(user_password):
             i -= 10
         new_string += str(i)
     return new_string
-
+    
+def decoded_pass(decode_pass):
+    pass_list = [int(x) for x in str(decode_pass)]
+    decoded_list = [x - 3 for x in pass_list]
+    decoded_list_str = map(str, decoded_list)
+    decoded_password = ''.join(decoded_list_str)
+    return decoded_password
 
 def main():
     while True:
@@ -24,9 +30,10 @@ def main():
 
         if option == 1:
             user_password  = (input('Please enter your password to encode: '))
-            user_password = encode(user_password)
+            encoded_password = encode(user_password)
             print('Your password has been encoded and stored!')
-
+        if option ==2 
+            print(f'The encoded password is {encoded_password} and the original is {decoded_password(encoded_password)}.)
 
         if option == 3:
             break
