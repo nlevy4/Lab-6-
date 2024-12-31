@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Minesweeper",
+      "imageSrc": "projects/minesweeper.png",
+      "description": "Full implementation of the classic game Minesweeper using C++ and SFML ",
+      "skills": ["C++", "CLion", "SFML"],
+  
+      "source": "https://github.com/nlevy4/-Minesweeper.git"
+    },
+    {
+      "title": " Electric Vehicle Charging Station Optimizer ",
+      "imageSrc": "projects/ev.png",
+      "description": " This is a group project to optimize the placement of EV charging stations using graphs and a real-world dataset",
+      "skills": ["C++", "CLion"],
+      "source": "https://github.com/varunyelchur/EV-Charging-Station-Optimization.git"
+    },
+    {
+      "title": "Portfolio Website",
+      "imageSrc": "projects/reactport.png",
+      "description": "A responsive portfolio website built with React to showcase my projects, skills, and experience while learning web development",
+      "skills": ["React", "HTML", "Node", "CSS"],
+      "source": "https://github.com/nlevy4/React-portfolio.git"
+    }
+  ]
